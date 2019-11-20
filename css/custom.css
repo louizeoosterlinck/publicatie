@@ -37,5 +37,5 @@ h1{
   position: fixed;
     background-color: rgba(256,256,256,.3);
     top: 0;
-    width: 100%;
+    width: 100vw;
 }
