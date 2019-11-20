@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Volgende regel gaat een font importeren vanuit Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* Volgende regel gaat de geïmporteerde fiont toewijzen aan elke paragraaf */
+p{font-family: 'Helvetica', sans-serif;}
+
+img{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+/* volgende regel gaat de klasse "container-fluid" beschrijven*/
+.container-fluid {
+    width: 100%;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@font-face {
+  font-family: 'Plantagenet_Cherokee';
+  src: url('../fonts/Plantagenet_Cherokee.ttf');
+}
+
+body{
+  font-family: 'Plantagenet_Cherokee';
+}
+
+h1{
+  color: #FFFFFF;
+}
+
+#nav-transparent {
+  position: fixed;
+    background-color: rgba(256,256,256,.3);
+    top: 0;
+    width: 100%;
+}

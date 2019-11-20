@@ -1,0 +1,20 @@
+#homeimage{
+  background-image: url("../images/BackgroundImage.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#homesection{
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#hometitle{padding-top:45vh;}
+
+#homesection .navbar{padding-top:2.2vh;padding-bottom:2.2vh;}
+
+.navbar{opacity: 1;}
+
+.nav-item{opacity: 1;}
