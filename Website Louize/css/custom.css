@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Volgende regel gaat een font importeren vanuit Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* Volgende regel gaat de geïmporteerde fiont toewijzen aan elke paragraaf */
+p{font-family: 'Helvetica', sans-serif;}
+
+img{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+/* volgende regel gaat de klasse "container-fluid" beschrijven*/
+.container-fluid {
+    width: 100%;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@font-face {
+  font-family: 'Plantagenet_Cherokee';
+  src: url('../fonts/Plantagenet_Cherokee.ttf');
+}
+
+body{
+  font-family: 'Plantagenet_Cherokee';
+}
+
+h1{
+  color: #FFFFFF;
+}
+
+h2{
+  color: #1C497E;
+  padding-top: 8vw;
+  padding-bottom: 3vw;
+}
+
+footer p{
+  font-family: 'Plantagenet_Cherokee';
+}
+
+#nav-transparent {
+  position: fixed;
+    background-color: rgba(256,256,256,.3);
+    top: 0;
+    width: 100vw;
+}
+
+#oilpainting{
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 3vw;
+}
+
+.navbar-light .navbar-brand{
+    color: #1C497E;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-brand:focus{
+  color: #619AB2;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #1C497E;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .nav-link:focus {
+  color: #619AB2;
+}
+
+.dropdown-item, .dropdown-item {
+  color: #1C497E;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #619AB2;
+}
+
+
+/*MODAL START*/
+#oilpainting, #water, #orchid {
+  /* border-radius: 5px; */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#oilpainting:hover, #water:hover, #orchid:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 80px; /* Location of the box */
+  padding-bottom: 20px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  height: 100%;
+  width:auto;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
