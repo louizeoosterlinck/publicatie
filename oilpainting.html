@@ -22,6 +22,15 @@
 </head>
 <body>
 
+  <!-- The Modal -->
+<div id="myModal" class="modal" class="container-fluid">
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+</div>
+
+<!-- Content -->
   <div class="container">
 
     <div class="row">
@@ -31,21 +40,21 @@
     </div>
 
     <div class="row">
-        <div id="oilpainting" class="col-6"><img src="images/portrait1.jpg"   class="img-fluid" ></div>
-        <div id="oilpainting" class="col-6"><img src="images/portrait2.jpg"   class="img-fluid" ></div>
+        <div id="oilpainting" class="col-6"><img src="images/portrait1.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+        <div id="oilpainting" class="col-6"><img src="images/portrait2.jpg"   class="img-fluid" onclick="showModal(this)"></div>
     </div>
     <br>
     <div  class="row">
-        <div id="oilpainting" class="col-6"><img src="images/portrait3.jpg"   class="img-fluid" ></div>
-        <div id="oilpainting" class="col-6"><img src="images/portrait4.jpg"   class="img-fluid" ></div>
+        <div id="oilpainting" class="col-6"><img src="images/portrait3.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+        <div id="oilpainting" class="col-6"><img src="images/portrait4.jpg"   class="img-fluid" onclick="showModal(this)"></div>
     </div>
     <br>
     <div  class="row">
-        <div id="oilpainting" class="col-8 offset-2"><img src="images/portrait5.jpg"   class="img-fluid" ></div>
+        <div id="oilpainting" class="col-8 offset-2"><img src="images/portrait5.jpg"   class="img-fluid" onclick="showModal(this)"></div>
     </div>
     <br>
     <div  class="row">
-        <div id="oilpainting" class="col-8 offset-2"><img src="images/portrait6.jpg"   class="img-fluid" ></div>
+        <div id="oilpainting" class="col-8 offset-2"><img src="images/portrait6.jpg"   class="img-fluid" onclick="showModal(this)"></div>
     </div>
   <!-- Start van de section -->
 
@@ -79,7 +88,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-            <p>Copyright © Louize Oosterlinck. All rights reserved.</p>
+            <p>Copyright © Louize Oosterlinck 2019. All rights reserved.</p>
         </div>
       </div>
     </div>
@@ -89,5 +98,6 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap-4.0.0.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 </html>

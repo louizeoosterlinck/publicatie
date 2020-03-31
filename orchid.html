@@ -22,6 +22,16 @@
 </head>
 <body>
 
+
+  <!-- The Modal -->
+<div id="myModal" class="modal" class="container-fluid">
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+</div>
+
+
   <div class="container">
 
     <div class="row">
@@ -31,21 +41,21 @@
     </div>
 
     <div class="row">
-        <div id="orchid1" class="col-4"><img src="images/orchid1.jpg"   class="img-fluid" ></div>
-        <div id="orchid2" class="col-4"><img src="images/orchid2.jpg"   class="img-fluid" ></div>
-        <div id="orchid3" class="col-4"><img src="images/orchid3.jpg"   class="img-fluid" ></div>
+        <div id="orchid" class="col-4"><img src="images/orchid1.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+        <div id="orchid" class="col-4"><img src="images/orchid2.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+        <div id="orchid" class="col-4"><img src="images/orchid3.jpg"   class="img-fluid" onclick="showModal(this)"></div>
     </div>
     <br>
     <div  class="row">
-        <div id="orchid4" class="col-4"><img src="images/orchid4.jpeg"   class="img-fluid" ></div>
-        <div id="orchid5" class="col-4"><img src="images/orchid5.jpeg"   class="img-fluid" ></div>
-        <div id="orchid6" class="col-4"><img src="images/orchid6.jpg"   class="img-fluid" ></div>
+        <div id="orchid" class="col-4"><img src="images/orchid4.jpeg"   class="img-fluid" onclick="showModal(this)"></div>
+        <div id="orchid" class="col-4"><img src="images/orchid5.jpeg"   class="img-fluid" onclick="showModal(this)"></div>
+        <div id="orchid" class="col-4"><img src="images/orchid6.jpg"   class="img-fluid" onclick="showModal(this)"></div>
     </div>
     <br>
     <div class="row">
-        <div id="orchid7" class="col-4"><img src="images/orchid7.jpeg"   class="img-fluid" ></div>
-        <div id="orchid8" class="col-4"><img src="images/orchid8.jpg"   class="img-fluid" ></div>
-        <div id="orchid9" class="col-4"><img src="images/orchid9.jpeg"   class="img-fluid" ></div>
+        <div id="orchid" class="col-4"><img src="images/orchid7.jpeg"   class="img-fluid" onclick="showModal(this)"></div>
+        <div id="orchid" class="col-4"><img src="images/orchid8.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+        <div id="orchid" class="col-4"><img src="images/orchid9.jpeg"   class="img-fluid" onclick="showModal(this)"></div>
     </div>
   </div>
 
@@ -79,7 +89,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-            <p>Copyright © Louize Oosterlinck. All rights reserved.</p>
+            <p>Copyright © Louize Oosterlinck 2019. All rights reserved.</p>
         </div>
       </div>
     </div>
@@ -89,5 +99,6 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap-4.0.0.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 </html>

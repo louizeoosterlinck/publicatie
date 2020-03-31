@@ -21,6 +21,14 @@
 
 </head>
 <body>
+  <!-- The Modal -->
+<div id="myModal" class="modal" class="container-fluid">
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+</div>
+
 
     <div class="container">
 
@@ -31,21 +39,21 @@
       </div>
 
       <div class="row">
-          <div id="water1" class="col-4"><img src="images/water1.jpeg"   class="img-fluid" ></div>
-          <div id="water2" class="col-4"><img src="images/water2.jpg"   class="img-fluid" ></div>
-          <div id="water3" class="col-4"><img src="images/water3.jpg"   class="img-fluid" ></div>
+          <div id="water" class="col-4"><img src="images/water1.jpeg"   class="img-fluid" onclick="showModal(this)"></div>
+          <div id="water" class="col-4"><img src="images/water2.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+          <div id="water" class="col-4"><img src="images/water3.jpg"   class="img-fluid" onclick="showModal(this)"></div>
       </div>
       <br>
       <div  class="row">
-          <div id="water3" class="col-4"><img src="images/water4.jpg"   class="img-fluid" ></div>
-          <div id="water4" class="col-4"><img src="images/water5.jpg"   class="img-fluid" ></div>
-          <div id="water5" class="col-4"><img src="images/water6.jpg"   class="img-fluid" ></div>
+          <div id="water" class="col-4"><img src="images/water4.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+          <div id="water" class="col-4"><img src="images/water5.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+          <div id="water" class="col-4"><img src="images/water6.jpg"   class="img-fluid" onclick="showModal(this)"></div>
       </div>
       <br>
       <div class="row">
-          <div id="water7" class="col-4"><img src="images/water7.jpg"   class="img-fluid" ></div>
-          <div id="water8" class="col-4"><img src="images/water8.jpg"   class="img-fluid" ></div>
-          <div id="water9" class="col-4"><img src="images/water9.jpg"   class="img-fluid" ></div>
+          <div id="water" class="col-4"><img src="images/water7.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+          <div id="water" class="col-4"><img src="images/water8.jpg"   class="img-fluid" onclick="showModal(this)"></div>
+          <div id="water" class="col-4"><img src="images/water9.jpg"   class="img-fluid" onclick="showModal(this)"></div>
       </div>
     </div>
 <!-- einde code van de tweede container -->
@@ -80,7 +88,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <p>Copyright © Louize Oosterlinck. All rights reserved.</p>
+          <p>Copyright © Louize Oosterlinck 2019. All rights reserved.</p>
         </div>
       </div>
     </div>
@@ -90,5 +98,6 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap-4.0.0.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 </html>
