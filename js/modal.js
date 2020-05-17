@@ -8,6 +8,12 @@ function showModal(img){
   modalImg.src = img.src;
 }
 
+var modalVid = document.getElementById("vid01");
+function showModalVid(vidSrc){
+  modal.style.display = "block";
+  modalVid.src = vidSrc;
+}
+
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
